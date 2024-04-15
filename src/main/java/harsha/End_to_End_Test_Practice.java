@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class End_to_End_Test_Practice {
 
 	@Test
-	public static void test() throws InterruptedException {
+	public static void test1() throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		WebDriver driver = new ChromeDriver();
