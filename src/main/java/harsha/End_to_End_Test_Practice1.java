@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class End_to_End_Test_Practice {
+public class End_to_End_Test_Practice1 {
 
 	public static WebDriver driver;
 	
