@@ -11,11 +11,13 @@ import org.testng.annotations.Test;
 
 public class End_to_End_Test_Practice {
 
+	public static WebDriver driver;
+	
 	@Test
 	public static void test1() throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriver driver = new ChromeDriver();
+	        driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		Thread.sleep(2000);
